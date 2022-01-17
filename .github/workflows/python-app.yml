@@ -37,4 +37,4 @@ jobs:
         path: coverage.xml
     - name: Automatically find diff lines that need test coverage
       run: |
-        diff-cover coverage.xml
+        diff-cover coverage.xml --fail-under 100
