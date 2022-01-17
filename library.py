@@ -2,5 +2,5 @@ def hello_world():
     return 'Hello world'
 
 
-def hello_world_personalized(name):
-    return f'Hello {name}'
+def hello_world_personalized(name, greeting='Hello'):
+    return f'{greeting} {name}'
