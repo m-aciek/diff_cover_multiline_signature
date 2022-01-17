@@ -6,6 +6,4 @@ def call_hello_world():
 
 
 def call_hello_world_personalized():
-    return hello_world_personalized(
-        name='Maciek',
-    )
+    return hello_world_personalized(name='Maciek', greeting='Hiya')
